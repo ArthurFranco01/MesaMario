@@ -1,3 +1,4 @@
+#thyerrisson
 #Arthur
 def pi(n_termos=100000000): #numero default de termos cem milhões
     pi_quarto = 0
