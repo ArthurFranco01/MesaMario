@@ -1,3 +1,4 @@
+#Arthur
 def pi(n_termos=100000000): #numero default de termos cem milhões
     pi_quarto = 0
     for n in range(n_termos):
@@ -10,6 +11,7 @@ def pi(n_termos=100000000): #numero default de termos cem milhões
 aproximacao = pi()
 print(f"PI aproximado: {aproximacao}")
 
+#Thiago
 anguloRecebido = float(input("Digite o ângulo em graus: "))
 
 
@@ -43,9 +45,8 @@ def funcao_taylor(rad, k):
 
 resultado = funcao_taylor(radianoConvertido, k)
 print(f'O seno do angulo {anguloRecebido} = {resultado:.6f}')
-# Funcao para Log de numero Natural
 
-# Bloco 1: cálculo de y
+#thaina
 def calcular_y(x):
     return (x - 1) / (x + 1)
 
