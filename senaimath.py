@@ -1,3 +1,5 @@
+#thyerrisson la em cima
+
 def calcular_euler(precisao=10):
     e_calculado = 1
     fatorial = 1
