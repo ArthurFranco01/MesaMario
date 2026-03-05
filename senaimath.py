@@ -1,17 +1,3 @@
-#thyerrisson
-def calcular_euler(precisao=10):
-    e_calculado = 1
-    fatorial = 1
-
-    for num in range(0,precisao):
-        if num > 0:
-            fatorial *= num
-            e_calculado += 1 / fatorial
-    return e_calculado
-
-calculo_euler = calcular_euler(10)
-
-print(f"O valor de e calculado com a precisao de {10} é de {calculo_euler}!")
 #Arthur
 def pi(n_termos=100000000): #numero default de termos cem milhões
     pi_quarto = 0
@@ -99,3 +85,18 @@ k = int(input("Digite o número de termos da série (k): "))
 resultado = ln_aprox(x, k)
 
 print(f"ln({x}) ≈ {resultado:.2f}")
+
+#thyerrisson
+def calcular_euler(precisao=10):
+    e_calculado = 1
+    fatorial = 1
+
+    for num in range(0,precisao):
+        if num > 0:
+            fatorial *= num
+            e_calculado += 1 / fatorial
+    return e_calculado
+
+calculo_euler = calcular_euler(10)
+
+print(f"O valor de e calculado com a precisao de {10} é de {calculo_euler}!")
