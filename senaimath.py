@@ -1,4 +1,4 @@
-#thyerrisson la em cima
+#thyerrisson la em cima caramba
 
 def calcular_euler(precisao=10):
     e_calculado = 1
