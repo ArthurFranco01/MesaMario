@@ -10,4 +10,4 @@ def calcular_euler(precisao=10):
 
 calculo_euler = calcular_euler(10)
 
-print(f"O valor de e calculado com a precisao de {10} é de {calculo_euler}")
+print(f"O valor de e calculado com a precisao de {10} é de {calculo_euler}!")
